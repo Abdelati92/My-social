@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>السوشيال ميديا الخاص بي</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-image: url("https://drive.google.com/uc?export=view&id=1-0FNB6OSRS10lexyl3hMtOWCsiOtKxkD");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+    }
+    h1 {
+      margin-top: 50px;
+      color: #fff;
+      text-shadow: 1px 1px 4px #000;
+    }
+    .social-links {
+      margin-top: 40px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 20px;
+      text-decoration: none;
+      color: #fff;
+    }
+    .social-links img {
+      width: 80px;
+      height: 80px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+      background-color: white;
+      padding: 5px;
+    }
+    .social-links img:hover {
+      transform: scale(1.1);
+    }
+    .label {
+      display: block;
+      margin-top: 10px;
+      font-size: 18px;
+      text-shadow: 1px 1px 2px #000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Social</h1>
+
+  <div class="social-links">
+    <a href="https://www.facebook.com/share/16LeKG4nWH/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      <span class="label">فيسبوك</span>
+    </a>
+
+    <a href="https://www.instagram.com/ahmedabdelati83?igsh=MWV3aG9henlzZzBjYw==" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      <span class="label">إنستجرام</span>
+    </a>
+
+    <a href="https://wa.me/201507525710" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+      <span class="label">واتساب</span>
+    </a>
+  </div>
+
+</body>
+</html>
